@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.android.example.pdp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.android.example.pdp.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.android.example.pdp.GroupFragment"
+        android:label="fragment_group"
+        tools:layout="@layout/fragment_group" />
+    <fragment
+        android:id="@+id/mentorFragment"
+        android:name="com.android.example.pdp.MentorFragment"
+        android:label="fragment_mentor"
+        tools:layout="@layout/fragment_mentor" />
+    <fragment
+        android:id="@+id/itemCourseFragment"
+        android:name="com.android.example.pdp.ItemCourseFragment"
+        android:label="fragment_item_course"
+        tools:layout="@layout/fragment_item_course" />
+</navigation>
